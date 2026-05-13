@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
 
-  <h3 align="center">A 3D Developer Portfolio</h3>
+  <h3 align="center">A Developer Portfolio</h3>
 
    <div align="center">
      A modern 3D portfolio website built with React, Three.js, and Tailwind CSS.
@@ -111,7 +111,7 @@ Replace the placeholder values with your actual EmailJS credentials. You can obt
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+
 
 ## <a name="snippets">🕸️ Snippets</a>
 
@@ -753,9 +753,6 @@ module.exports = {
 
 </details>
 
-## <a name="links">🔗 Links</a>
-
-Models and Assets used in the project can be found [here](https://drive.google.com/drive/folders/1KVU8iaH0E_JFtShNiR3BgCSA3pawXY4Z)
 
 ## <a name="more">🚀 Deploy</a>
 
