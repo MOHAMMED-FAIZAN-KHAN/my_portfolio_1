@@ -53,11 +53,12 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         {/* Change this paragraph to your real introduction/about message. */}
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
+        I'm a learning full stack developer with skills in c,c++,java, and
+        python, and in frontend like html, css,little javascript and flutter.
+        I'm a quick learner and collaborate easily with groups to
         create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        real-world problems.
+         Let's work together to bring your ideas to life! 
       </motion.p>
 
       {/* Render one service card for each item from constants/index.js. */}

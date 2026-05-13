@@ -8,6 +8,7 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+import SkillCard from "./SkillCard";
 
 // Re-export all components from one file so App.jsx can import them cleanly.
 export {
@@ -20,6 +21,7 @@ export {
   Feedbacks,
   Contact,
   CanvasLoader,
+  SkillCard,
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 

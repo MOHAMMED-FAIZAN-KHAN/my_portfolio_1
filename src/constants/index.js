@@ -50,73 +50,88 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "React Learner",
+    icon: creator,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "vibe coder",
     icon: creator,
   },
 ];
 
 // Technology icons shown as 3D balls in the Tech section.
 // Add or remove technologies here to change the Skills section.
+// "score" is 0-100: represents your proficiency level shown on the speedometer.
+// Change these values to match your actual skill levels!
 const technologies = [
   {
     name: "HTML 5",
     icon: html,
+    score: 70,  // Change this to your proficiency level (0-100)
   },
   {
     name: "CSS 3",
     icon: css,
+    score: 50,  // Change this to your proficiency level (0-100)
   },
   {
     name: "JavaScript",
     icon: javascript,
+    score: 10,  // Change this to your proficiency level (0-100)
   },
   {
     name: "TypeScript",
     icon: typescript,
+    score: 0,  // Change this to your proficiency level (0-100)
   },
   {
     name: "React JS",
     icon: reactjs,
+    score: 30,  // Change this to your proficiency level (0-100)
   },
   {
     name: "Redux Toolkit",
     icon: redux,
+    score: 0,  // Change this to your proficiency level (0-100)
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
+    score: 20,  // Change this to your proficiency level (0-100)
   },
   {
     name: "Node JS",
     icon: nodejs,
+    score: 15,  // Change this to your proficiency level (0-100)
   },
   {
     name: "MongoDB",
     icon: mongodb,
+    score: 40,  // Change this to your proficiency level (0-100)
   },
   {
     name: "Three JS",
     icon: threejs,
+    score: 30,  // Change this to your proficiency level (0-100)
   },
   {
     name: "git",
     icon: git,
+    score: 80,  // Change this to your proficiency level (0-100)
   },
   {
     name: "figma",
     icon: figma,
+    score: 75,  // Change this to your proficiency level (0-100)
   },
   {
     name: "docker",
     icon: docker,
+    score: 10,  // Change this to your proficiency level (0-100)
   },
 ];
 
@@ -124,41 +139,39 @@ const technologies = [
 // Replace this template data with your real jobs, internships, or learning milestones.
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "RYAN INTERNATIONAL SCHOOL [ICSE]",
+    company_name: "RIS",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: " 1'ST TO 10'TH (2023)",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "BASIC EDUCATION: Completed 10 years of schooling with a strong academic record, demonstrating a solid foundation in core subjects and a commitment to learning.",
+      "EXTRA-CURRICULAR ACTIVITIES: Actively participated in various extracurricular activities, including sports, arts, and community service, showcasing a well-rounded personality and leadership skills.",
+      " PERCENTAGE OF 10TH: 92%"
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "KALA VIDYA MANDIR INSTITUTE OF TECHNOLOGY [DIPLOMA]",
+    company_name: "KVMIT",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "JUNE 2023 - APRIL 2026",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "BASIC TO INTERMEDIATE KNOWLEDGE: Acquired a solid understanding of fundamental concepts in computer science and engineering, including programming languages, data structures, algorithms, and software development principles.",
+      "PROJECT EXPERIENCE: Participated in various projects that enhanced practical skills and provided hands-on experience with real-world applications.",
+      "DONE A TRAINING/INTERSHIP AT IOFT ",
+  ,
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "INSTITUTE OF FUTURE TECHNOLOGIES",
+    company_name: "IOFT",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "AUG 2025 - NOV 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing and maintaining web applications using HTML, CSS, and JavaScript and other related technologies.",
+      "CREATED MANY PROJECTS - MACHINE LEARNING/DEEP LEARNING.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -210,41 +223,41 @@ const testimonials = [
 // Replace these projects with your real portfolio projects and GitHub links.
 const projects = [
   {
-    name: "Car Rent",
+    name: "AI RATION MITRA ",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "flutter app platform that allows users to search, view, and manage ration distribution from various providers, providing a convenient and efficient solution for distribution needs.",
     tags: [
       {
-        name: "react",
+        name: "flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "java",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: 'https://github.com/MOHAMMED-FAIZAN-KHAN/ai_ration_mitra-main--1-.git',
   },
   {
-    name: "Job IT",
+    name: "face recognition and attendance system",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "a python application for face recognition and attendance tracking, utilizing computer vision and machine learning techniques to identify and record attendance based on facial features.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "opencv",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "ctkinter",
         color: "pink-text-gradient",
       },
     ],
@@ -252,20 +265,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "online restaurant and food delivery system",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A web application for ordering food from local restaurants and managing deliveries.",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
