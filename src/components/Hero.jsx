@@ -13,18 +13,18 @@ const Hero = () => {
         className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 z-10`}
       >
         
-        {/* Purple Side Line */}
+        {/* Green Side Line */}
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
+          <div className="w-5 h-5 rounded-full bg-[#00cc44]" />
 
-          <div className="w-1 sm:h-80 h-40 violet-gradient" />
+          <div className="w-1 sm:h-80 h-40" style={{ background: 'linear-gradient(-90deg, #00cc44 0%, rgba(0, 204, 68, 0) 100%)' }} />
         </div>
 
         {/* Hero Text */}
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm{" "}
-            <span className="text-[#915EFF]">
+            <span className="text-[#00cc44]" style={{ textShadow: '0 2px 4px rgba(0, 0, 0, 0.3)' }}>
               Mohammed 
               <br/> 
               Faizan Khan
