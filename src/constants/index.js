@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  airationmitra,
+  restaurantimg,
 } from "../assets";
 
 // Navbar links; the id must match the section id used by SectionWrapper.
@@ -243,7 +245,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: airationmitra,
     source_code_link: 'https://github.com/MOHAMMED-FAIZAN-KHAN/ai_ration_mitra-main--1-.git',
   },
   {
@@ -285,7 +287,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: restaurantimg,
     source_code_link: "https://github.com/",
   },
 ];
