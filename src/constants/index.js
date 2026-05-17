@@ -16,9 +16,9 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
-  shopify,
+  ryan,
+  kala,
+  ioft,
   carrent,
   jobit,
   tripguide,
@@ -141,8 +141,9 @@ const experiences = [
   {
     title: "RYAN INTERNATIONAL SCHOOL [ICSE]",
     company_name: "RIS",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: ryan,
+    iconBg: "#FFFFFF",
+    iconClassName: "w-[86%] h-[86%] object-contain",
     date: " 1'ST TO 10'TH (2023)",
     points: [
       "BASIC EDUCATION: Completed 10 years of schooling with a strong academic record, demonstrating a solid foundation in core subjects and a commitment to learning.",
@@ -153,8 +154,9 @@ const experiences = [
   {
     title: "KALA VIDYA MANDIR INSTITUTE OF TECHNOLOGY [DIPLOMA]",
     company_name: "KVMIT",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: kala,
+    iconBg: "#FFFFFF",
+    iconClassName: "w-[86%] h-[86%] object-contain",
     date: "JUNE 2023 - APRIL 2026",
     points: [
       "BASIC TO INTERMEDIATE KNOWLEDGE: Acquired a solid understanding of fundamental concepts in computer science and engineering, including programming languages, data structures, algorithms, and software development principles.",
@@ -166,8 +168,9 @@ const experiences = [
   {
     title: "INSTITUTE OF FUTURE TECHNOLOGIES",
     company_name: "IOFT",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: ioft,
+    iconBg: "#FFFFFF",
+    iconClassName: "w-[86%] h-[86%] object-contain",
     date: "AUG 2025 - NOV 2025",
     points: [
       "Developing and maintaining web applications using HTML, CSS, and JavaScript and other related technologies.",

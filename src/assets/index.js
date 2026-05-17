@@ -22,7 +22,10 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
+import ioft from "./company/ioft.png";
 import shopify from "./company/shopify.png";
+import kala from "./company/kala.png";
+import ryan from "./company/ryan.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
@@ -53,7 +56,10 @@ export {
   typescript,
   threejs,
   meta,
+  ioft,
   shopify,
+  kala,
+  ryan,
   starbucks,
   tesla,
   carrent,
