@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import AvatarCanvas from "./canvas/avatar";
+import { logo } from "../assets";
 
 // Hero Section
 const Hero = () => {

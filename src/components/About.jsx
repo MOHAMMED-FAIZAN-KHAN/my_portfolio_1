@@ -56,7 +56,7 @@ const About = () => {
         I'm a learning full stack developer with skills in c,c++,java, and
         python, and in frontend like html, css,little javascript and flutter.
         I'm a quick learner and collaborate easily with groups to
-        create efficient, scalable, and user-friendly solutions that solve
+        create efficient, scalable, and user-friendly solutions that helps solve
         real-world problems.
          Let's work together to bring your ideas to life! 
       </motion.p>

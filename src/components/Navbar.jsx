@@ -51,10 +51,10 @@ const Navbar = () => {
           }}
         >
           {/* Change logo.svg in src/assets if you want a different logo image. */}
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={logo} alt='logo' className='w-10 h-10 object-contain' />
           <p className='text-[18px] font-bold cursor-pointer flex '>
             {/* Change this text to update the name shown in the navbar. */}
-            <span className='text-[#915EFF]'>Mohammed Faizan Khan</span> &nbsp;
+            <span className='sm:block hidden text-white'>Mohammed Faizan Khan</span> &nbsp;
             <span className='sm:block hidden text-white'> | Developer</span>
           </p>
         </Link>
