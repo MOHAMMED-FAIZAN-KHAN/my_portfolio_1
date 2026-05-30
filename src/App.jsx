@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 
 // App is the main layout of the portfolio.
 // It decides the order in which every section appears on the page.
@@ -21,7 +21,6 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
 
         {/* Contact has the animated stars behind it. */}
         <div className='relative z-0'>

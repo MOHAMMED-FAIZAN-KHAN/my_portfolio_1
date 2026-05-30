@@ -106,7 +106,7 @@ const SkillCard = ({ technology }) => {
 
       <div className="skill-card">
         <div className="skill-ball-container">
-          <BallCanvas icon={technology.icon} score={score} />
+          <BallCanvas icon={technology.icon} name={technology.name} score={score} />
         </div>
         <div className="skill-name">{technology.name}</div>
         <div className="skill-score">Proficiency: {score}%</div>
